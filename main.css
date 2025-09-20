@@ -107,24 +107,24 @@ body {
 
 .flowers {
   position: absolute;
-  transform: scale(0.9);
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%) scale(0.9); /* Centrado horizontal */
+  left: 50%;              /* Punto de referencia al centro */
+  bottom: 0;              /* Pegadas abajo */
+  transform: translateX(-50%) scale(0.9); /* Centrado horizontal + escala */
+  max-width: 100%;        /* No superar el ancho de la pantalla */
+  height: auto;           /* Mantener proporción */
 }
 
-/* Ajuste en celulares */
+/* Ajustes para pantallas medianas */
 @media screen and (max-width: 768px) {
   .flowers {
-    transform: translateX(-50%) scale(0.7); /* Más chico en celular */
-    bottom: -20px; /* Baja un poquito para que no tape el texto */
+    transform: translateX(-50%) scale(0.7);
   }
 }
 
+/* Ajustes para pantallas chicas */
 @media screen and (max-width: 480px) {
   .flowers {
-    transform: translateX(-50%) scale(0.6); /* Todavía más chico en pantallas chicas */
-    bottom: -10px;
+    transform: translateX(-50%) scale(0.6);
   }
 }
 
