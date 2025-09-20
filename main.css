@@ -108,7 +108,8 @@ body {
 .flowers {
   position: absolute;
   transform: scale(0.9);
-
+  top: 50%;
+  top: 99%;
   /*margin-bottom: 100px;
   */
 }
@@ -120,8 +121,8 @@ body {
       margin-bottom: 35%;
       letter-spacing: 3px;
       transform: scale(1.0);
-      top: 50;
-      top: 50;
+      top: 50%;
+      top: 50%;
 }
 
 }
