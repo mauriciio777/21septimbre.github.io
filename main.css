@@ -115,16 +115,16 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  /* Estilos específicos para dispositivos con un ancho máximo de 600px */
-.flowers {
+  /* ...otros estilos... */
+  .flowers {
       position: absolute;
       font-size: 14px;
       margin-bottom: 35%;
       letter-spacing: 3px;
-      transform: translateX(-50%) scale(1.0);
-      left: 50%; /* Nueva propiedad para centrar horizontalmente */
+      transform: translateX(-50%) scale(1.0); /* ¡Cambiado! */
+      left: 50%; /* ¡Agregado! */
       top: 99%;
-}
+  }
 }
 
 .flower {
