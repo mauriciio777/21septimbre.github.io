@@ -109,20 +109,9 @@ body {
   position: absolute;
   transform: scale(0.9);
   top: 50%;
-  /* margin-bottom: 100px; */
-}
-
-@media only screen and (max-width: 600px) {
-  /* Estilos específicos para dispositivos con un ancho máximo de 600px */
-  .flowers {
-    font-size: 14px;
-    margin-bottom: 35%;
-    letter-spacing: 3px;
-    transform: scale(1.0);
-    top: 40%; /* Cambiado de 50% a 40% para mejor posicionamiento */
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1.0); /* Centrado mejorado */
-  }
+  top: 99%;
+  /*margin-bottom: 100px;
+  */
 }
 
 @media only screen and (max-width: 600px) {
@@ -133,7 +122,7 @@ body {
       letter-spacing: 3px;
       transform: scale(1.0);
       top: 50%;
-      top: 50%;
+      top: 99%;
 }
 
 }
@@ -144,6 +133,8 @@ body {
   transform-origin: bottom center;
   z-index: 10;
   --fl-speed: 0.8s;
+  top: 50%;
+  top: 99%;
 }
 .flower--1 {
   -webkit-animation: moving-flower-1 4s linear infinite;
