@@ -107,7 +107,7 @@ body {
 
 .flowers {
   position: absolute;
-  transform: scale(0.2);
+  transform: scale(0.9);
   top: 50%;
   top: 99%;
   /*margin-bottom: 100px;
@@ -133,8 +133,6 @@ body {
   transform-origin: bottom center;
   z-index: 10;
   --fl-speed: 0.8s;
-  top: 50%;
-  top: 99%;
 }
 .flower--1 {
   -webkit-animation: moving-flower-1 4s linear infinite;
